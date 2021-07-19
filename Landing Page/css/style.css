@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
+  .section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-section-one{
+    background-image: url(../assets/living.png);
+    background-attachment:scroll;
+    background-size:contain;
+    background-position: center;
+    background-color:rgb(0, 0, 0);
+    background-repeat: no-repeat;
+  }
+  
+  .background-section-two{
+    background-image: url(../assets/fundo.png);
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: center;
+    background-color:rgb(0, 0, 0);
+    background-repeat: no-repeat;
+  }
+  .background-section-three{
+    background-image: url(../assets/decor.png);
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: center;
+    background-color:rgb(0, 0, 0);
+    background-repeat: no-repeat;
+  }
+  
+  .background-section-four{
+    background-image: url(../assets/door.png);
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: center;
+    background-color:rgb(0, 0, 0);
+    background-repeat: no-repeat;
+  }
+  
+  .card-container{
+    background: rgb(255, 255, 255);
+    opacity: 0.90;
+    background-position:right;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 400px;
+  }
+  
+  input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+  }
+    
+ input:hover{
+      -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+      filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+      background-color: rgb(255, 239, 147);
+  }
+  
+  form{
+    display: grid;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgb(110, 110, 110);
+    font: 12px verdana, arial, sans-serif;
+ }
+  
+  footer{
+    height: 8px;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+  
